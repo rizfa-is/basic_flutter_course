@@ -1,3 +1,4 @@
+import 'package:basic_flutter_course/widgets/BiggerText.dart';
 import 'package:basic_flutter_course/widgets/Heading.dart';
 import 'package:flutter/material.dart';
 
@@ -79,8 +80,8 @@ class _MyHomePageState extends State<MyHomePage> {
     // than having to individually change instances of widgets.
     return Scaffold(
       body: Center(
-        child: Heading(
-            text: "Hello World!"
+        child: BiggerText(
+            text: "Hello World"
         ),
       ),
       floatingActionButton: FloatingActionButton(
